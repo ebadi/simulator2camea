@@ -1,0 +1,1 @@
+.\\Deccq_V2.0.1.1\\Deccq.exe -scenario="C:\Users\Admin\Desktop\simulator2camea\hamid.json"

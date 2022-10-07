@@ -1,0 +1,210 @@
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120118866.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '26482b23-e2d5-493f-8eb3-32f6685be732', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120129333.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '2362a343-0d71-4736-8100-5a5db08d9c61', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120132341.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'c29edd5c-32b3-4556-8a7b-0b9d7c8e46a0', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120132910.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'd59593e2-4d05-422f-ba83-29405d3b566c', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120142717.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'f2acd4d3-6e65-4375-9537-8be786c97541', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[913.8763427734375, 561.8963623046875], [1060.344970703125, 559.48876953125], [1061.451904296875, 594.6865844726562], [914.4545288085938, 596.8768310546875]], 'score': 0.9984884262084961, 'attributes': {'ilpc': ['CZ', 0.6923111081123352], 'ocr': ['5T01581', 0.9563651084899902], 'type': [['SINGLE'], [0.9984884262084961]]}}]}}
+* DetOk
++ 5T01581
+dx -146.4686279296875 dy -32.79022216796875
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120156925.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '6c022702-e398-4782-96d9-fb29d27f70a2', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120205234.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '7b0f66af-0bb0-45c6-932d-eac39ff12387', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120207627.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '98147c8c-de6d-439b-8eec-38b57a444842', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120208830.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '5be9ac97-b291-44e5-81bf-46b8fdf3a57d', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120210512.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '8b89e10a-e1a6-48a1-ac75-7ccf637aaa11', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120212215.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'ca82cef1-831e-4bbf-9e5b-20f2596beeb6', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[1745.4722900390625, 1543.0457763671875], [1981.6551513671875, 1538.975830078125], [1983.225830078125, 1589.77734375], [1746.2147216796875, 1593.5208740234375]], 'score': 0.9992287158966064, 'attributes': {'ilpc': ['D', 0.9792346954345703], 'ocr': ['D6T3722', 0.9965315461158752], 'type': [['SINGLE'], [0.9992287158966064]]}}]}}
+* DetOk
++ D6T3722
+dx -236.182861328125 dy -46.7315673828125
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120213433.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'fc8c63d6-adad-40c3-8bea-60b5d775da06', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120214016.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'c24d1311-e0e2-47b4-9298-9516de7baf34', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120214610.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '7a26afab-7cec-4c63-be82-a9bf3ad0be8f', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120215137.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '513adf63-e185-4161-8d7d-b6b563502a40', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120216333.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'f78f9666-745d-4019-a81c-c275b35f8a33', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[1327.432861328125, 1561.658935546875], [1769.376220703125, 1567.881103515625], [1770.2203369140625, 1672.5333251953125], [1327.44921875, 1664.905029296875]], 'score': 2.2493086504482562e-08, 'attributes': {'ilpc': ['CZ', 0.8029833436012268], 'ocr': ['LS', 0.7145782709121704], 'type': [['SINGLE'], [2.2493086504482562e-08]]}}]}}
+* DetOk
++ LS
+dx -441.943359375 dy -110.8743896484375
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120225227.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '18fb4575-19c4-4060-802f-b634e39c05b9', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120225812.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '292a402d-45e4-4ff1-a133-6e73a7395d02', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120226427.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '24cdbb7e-9099-4203-b28e-b6ae6173c227', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120227616.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '4765d4d7-c803-4f9a-bb24-dd3516df765c', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120228210.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '145d987f-b264-4af3-9b72-4b165879427c', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120232415.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'c3aa2c5c-94d2-4465-b752-1e519bb750b3', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120233034.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'da22aae7-5e24-4b54-ba00-f8556e064347', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120233632.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'bf15bdd4-e58b-4881-b33d-56b09838de08', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120234220.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '2b30d79d-1b9c-4a73-9f8f-25647d62491c', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[1321.7294921875, 1556.9935302734375], [1770.12939453125, 1565.2628173828125], [1770.97900390625, 1678.4617919921875], [1321.6522216796875, 1668.65478515625]], 'score': 1.148109429749411e-08, 'attributes': {'ilpc': ['PL', 0.5198750495910645], 'ocr': ['BSS', 0.8680556416511536], 'type': [['SINGLE'], [1.148109429749411e-08]]}}]}}
+* DetOk
++ BSS
+dx -448.39990234375 dy -121.46826171875
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120239630.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'aba4a788-32b1-425a-ab89-4324c9a359d0', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120240219.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'def47685-f2cd-4f04-89dc-db25e3643aba', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120240810.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '4d71f99a-33f6-4b24-9db3-1340ebfcda1c', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120242622.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '5f2ca949-5aa3-4b45-8919-989b19c69a3a', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120243238.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '09ea8e94-c6d3-4ee6-8506-37129ba894b4', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120249678.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '3f73ad86-0fcb-47e2-9eec-73af9047d45c', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120250286.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '04ec8059-11fa-49cc-bf9a-0f0aacfa317e', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120252078.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '8603bfe9-f8ef-4895-92e9-dea682c96862', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120253260.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '75e427a9-0aac-420f-8b60-c11fce9a5a37', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120254465.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'ba67bff5-2573-4691-b6c2-14805942d8f8', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120256261.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'e6efac9f-f6d4-45eb-aaa5-49b17b7c8f9f', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120310376.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '1f607efb-9778-402a-ba5b-242a6a935e16', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120310976.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '21958b29-f7b7-426c-a9a9-77f2fddfe2e9', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120311579.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '7b01ed4b-bb2d-431d-9c59-2b483fde14ba', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[1309.391357421875, 1555.295166015625], [1770.28125, 1564.0960693359375], [1771.4466552734375, 1684.6558837890625], [1309.5147705078125, 1674.21142578125]], 'score': 6.137667263317326e-09, 'attributes': {'ilpc': ['GB', 0.38709697127342224], 'ocr': ['BUSS', 0.9403692483901978], 'type': [['SINGLE'], [6.137667263317326e-09]]}}]}}
+* DetOk
++ BUSS
+dx -460.889892578125 dy -129.3607177734375
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120312660.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'ba9d4241-ba11-4a37-b53e-fb6c334a1830', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120316881.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '0f804015-2a97-4d57-ae03-7aa6f7670e42', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[816.939697265625, 433.2546081542969], [986.1605834960938, 431.5519714355469], [986.9370727539062, 465.3570556640625], [817.1271362304688, 466.829833984375]], 'score': 0.9985425472259521, 'attributes': {'ilpc': ['P', 0.9301321506500244], 'ocr': ['V580644', 0.9625129699707031], 'type': [['SINGLE'], [0.9985425472259521]]}}]}}
+* DetOk
++ V580644
+dx -169.22088623046875 dy -32.102447509765625
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120317464.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'b3961510-294a-43bf-a8a5-8bea78acd722', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120318081.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '9bdbee07-e0ab-43a7-aec7-d7b582f7f432', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120321065.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '3ab88b7b-1317-4104-96a6-48d3e67f2152', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120344681.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'f6ee64a5-8e00-4a7c-9622-4de5cca77801', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120345278.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '9af8eb61-60f7-411a-8e14-a18b03ef6456', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120345867.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '628b4c18-9fa7-4716-98a7-1288db62d4ca', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120346460.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'd79e1868-0ebb-40a6-9ea9-e878b72c4c30', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120356468.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '40639662-b240-4d03-8423-26a4f8a4f688', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120357064.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '73fc023d-d2ec-4ef6-b55a-abea53ee2f82', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+Internal Server Error
+<Response [500]>
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120358857.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'd23498d8-713e-4452-a022-2cf8a08d6fda', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120407071.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'd4997f17-8e00-487c-ae48-590cfc6c480f', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[1588.126708984375, 666.5477905273438], [1762.1158447265625, 663.3292236328125], [1763.27294921875, 699.4707641601562], [1588.68017578125, 702.4537353515625]], 'score': 0.9994810223579407, 'attributes': {'ilpc': ['CZ', 0.9984117746353149], 'ocr': ['7609165', 0.9928689002990723], 'type': [['SINGLE'], [0.9994810223579407]]}}]}}
+* DetOk
++ 7609165
+dx -173.9891357421875 dy -32.9229736328125
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120407655.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '2cbba4bd-d1ba-46fe-be6b-58ec33e629d1', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120408278.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'a5325947-18ff-4d50-9597-b2a4ca8e86b5', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': [{'points': [[1323.0057373046875, 1567.7884521484375], [1753.288818359375, 1564.58984375], [1755.9613037109375, 1668.05029296875], [1324.691650390625, 1669.8909912109375]], 'score': 1.4311090090757261e-08, 'attributes': {'ilpc': ['CZ', 0.9835334420204163], 'ocr': ['5', 0.6013934016227722], 'type': [['SINGLE'], [1.4311090090757261e-08]]}}]}}
+* DetOk
++ 5
+dx -430.2830810546875 dy -100.2618408203125
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120408865.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'd4ccf614-1640-4733-964f-d008ab2a89a2', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120409466.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '4c4722f9-1141-44ae-b992-de5dd295fd50', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120410958.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '8d33340a-f32b-403b-b44f-f3247aea46e9', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120411571.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': 'c472c63c-0a98-4e21-9c13-4308a0881ece', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120412069.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '86b061ae-995e-44b7-9cdd-aae02597d2cf', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
+C:\Users\Admin\Desktop\simulator2camea\BERGE\Normal\20221007_120412662.png
+{'api_key_valid': True, 'licence_valid': True, 'licence_status': '', 'request_id': '02e2a5c4-c5f9-40df-9e42-c6e984f3949a', 'process_status': 'SUCCESS', 'result': {'status': 'DetOk', 'localizedObjectAnnotations': []}}
+* DetOk
