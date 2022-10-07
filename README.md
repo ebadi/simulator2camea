@@ -23,5 +23,5 @@ INFOTIV AB | RISE Research Institutes of Sweden | CAMEA  | VALU3S Project
 ------------ |  ------------  | ------------ | ------------ 
 ![](resources/logos/INFOTIV-logo.png)  | ![](resources/logos/RISE-logo.png)  | ![](resources/logos/camea-logo.png) |  ![](resources/logos/VALU3S-logo.png) 
 
-[ScenarioGenerator](https://github.com/ebadi/ScenarioGenerator) project is started and is currently maintained by [Hamid Ebadi](https://github.com/ebadi).
+This project is started and is currently maintained by [Hamid Ebadi](https://github.com/ebadi).
 
