@@ -19,9 +19,9 @@ This work is done by [Infotiv AB](https://www.infotiv.se) under [VALU3S](https:/
 The ECSEL JU and the European Commission are not responsible for the content on this website or any use that may be made of the information it contains.
 
 
-INFOTIV AB | RISE Research Institutes of Sweden | CHALMERS | Mälardalen University | VALU3S Project
+INFOTIV AB | RISE Research Institutes of Sweden | CAMEA  | VALU3S Project
 ------------ |  ------------  | ------------ | ------------ | ------------ 
-![](resources/logos/INFOTIV-logo.png)  | ![](resources/logos/RISE-logo.png)  | ![](resources/logos/CHALMERS-logo.png) | ![](resources/logos/Malardalen-logo.png) | ![](resources/logos/VALU3S-logo.png) 
+![](resources/logos/INFOTIV-logo.png)  | ![](resources/logos/RISE-logo.png)  | ![](resources/logos/camea-logo.png) |  ![](resources/logos/VALU3S-logo.png) 
 
 [ScenarioGenerator](https://github.com/ebadi/ScenarioGenerator) project is started and is currently maintained by [Hamid Ebadi](https://github.com/ebadi).
 
