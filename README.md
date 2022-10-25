@@ -19,9 +19,9 @@ This work is done by [Infotiv AB](https://www.infotiv.se) under [VALU3S](https:/
 The ECSEL JU and the European Commission are not responsible for the content on this website or any use that may be made of the information it contains.
 
 
-INFOTIV AB | RISE Research Institutes of Sweden | CAMEA  | VALU3S Project
------------- |  ------------  | ------------ | ------------ 
-![](logos/INFOTIV-logo.png)  | ![](logos/RISE-logo.png)  | ![](logos/camea-logo.png) |  ![](logos/VALU3S-logo.png) 
+INFOTIV AB | BERGE | RISE Research Institutes of Sweden | CAMEA  | VALU3S Project
+------------ |  ------------  | ------------  | ------------ | ------------ 
+![](logos/INFOTIV-logo.png) | ![](logos/BergeFullcolourlogo.svg)  | ![](logos/RISE-logo.png)  | ![](logos/camea-logo.png) |  ![](logos/VALU3S-logo.png) 
 
 This project is started and is currently maintained by [Hamid Ebadi](https://github.com/ebadi).
 
