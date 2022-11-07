@@ -1,0 +1,406 @@
+{
+	"GeneralSettings":
+	{
+		"EnvironmentSettings":
+		{
+			"Weather": "Sunny",
+			"Precipitation": 0.5,
+			"Hour": 12,
+			"Minute": 0
+		},
+		"TrafficSettings":
+		{
+			"UseGenericTraffic": true,
+			"GenericTrafficQuantities": [
+				{
+					"category": "Cars",
+					"quantity": 0
+				},
+				{
+					"category": "Trucks",
+					"quantity": 0
+				},
+				{
+					"category": "Busses",
+					"quantity": 0
+				},
+				{
+					"category": "Trams",
+					"quantity": 0
+				},
+				{
+					"category": "Motorcycles",
+					"quantity": 0
+				},
+				{
+					"category": "Pedestrians",
+					"quantity": 0
+				},
+				{
+					"category": "Bicycles",
+					"quantity": 0
+				},
+				{
+					"category": "Dears",
+					"quantity": 0
+				},
+				{
+					"category": "Mooses",
+					"quantity": 0
+				}
+			]
+		},
+		"SensorSettings":
+		{
+			"Camera":
+			{
+				"Aperture": 2.7999999999999998,
+				"FocalLength": 500,
+				"Exposure": 5,
+				"ShutterSpeed": 125,
+				"Iso": 100,
+				"Fov": 50
+			},
+			"Radar":
+			{
+				"UseRadar": false,
+				"Reach": 10000,
+				"HorizontalRange": 22.5,
+				"VerticalRange": 22.5,
+				"HorizontalResolution": 1,
+				"VerticalResolution": 1
+			},
+			"RandomizeViewpoints": true,
+			"Viewpoints": []
+		},
+		"OutputSettings":
+		{
+			"FrameCount": 10,
+			"ImageSize":
+			{
+				"x": 512,
+				"y": 512
+			},
+			"OutputDirectory": "C:/Users/ITDforskning/AppData/Local/Deccq/Saved//Datasets/",
+			"FilterSettings": [
+				{
+					"FilterName": "Normal",
+					"OutputFormat": "PNG",
+					"Enabled": true
+				},
+				{
+					"FilterName": "Distorted",
+					"OutputFormat": "PNG",
+					"Enabled": false
+				},
+				{
+					"FilterName": "Depth",
+					"OutputFormat": "EXR",
+					"Enabled": true
+				},
+				{
+					"FilterName": "Segmentation",
+					"OutputFormat": "PNG",
+					"Enabled": true
+				},
+				{
+					"FilterName": "PlateSegmentation",
+					"OutputFormat": "PNG",
+					"Enabled": true
+				}
+			]
+		}
+	},
+	"Scene": "Akareplatsen",
+	"ScenarioType": "SpecificScenarioMode",
+	"ScenarioActors":
+	{
+		"Navigation":
+		{
+			"Waypoints": [
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147459463",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -12543.612667820591,
+						"Y": -1457.4234109289955,
+						"Z": -6.986231113529584
+					},
+					"Rotation":
+					{
+						"Roll": 0.0010323039023205638,
+						"Pitch": 0.0012832548236474395,
+						"Yaw": -176.55143737792969
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147461488",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": 2420.8078805323294,
+						"Y": 3165.3738392897203,
+						"Z": -6.9999235790576222
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147461303",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": 1546.0591475974038,
+						"Y": 3176.0431013854623,
+						"Z": -6.9999706523235545
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147461119",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": 227.00748973034433,
+						"Y": 3135.5819309632429,
+						"Z": -6.9999845700399419
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460935",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -1500.1232324694342,
+						"Y": 3127.4976092131687,
+						"Z": -6.9999208493611604
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460751",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -3012.9362031946912,
+						"Y": 2630.3052969527971,
+						"Z": -6.999963699311138
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460567",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -3695.6746507273992,
+						"Y": 1605.6112033980496,
+						"Z": -7.0000548599107333
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460383",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -4714.6585818025978,
+						"Y": 869.21423545031121,
+						"Z": -7.0000418887875639
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460199",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -6511.4714073392797,
+						"Y": -281.23955660609317,
+						"Z": -6.9999927890237359
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460015",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -8024.4264943928029,
+						"Y": -795.27265297525446,
+						"Z": -7.0000310824987082
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147459831",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -9361.5743378890984,
+						"Y": -878.33292963234885,
+						"Z": -7.0000332376766892
+					},
+					"Rotation":
+					{
+						"Roll": 3.5724728064678857e-08,
+						"Pitch": -3.8562575355172157e-09,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147459647",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -10911.720254915184,
+						"Y": -1043.8378449922443,
+						"Z": -6.9999419913831389
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				}
+			],
+			"Paths": []
+		},
+		"Dynamic":
+		{
+			"Vehicles": [
+				{
+					"ClassToSpawn": "BP_vehicle07_Car_C",
+					"InitialSpeed": 0,
+					"MaxSpeed": 20,
+					"StartDelay": 0,
+					"LicensePlate":
+					{
+						"SegmentationId": 50,
+						"Nationality": "",
+						"PlateNumber": "ABCDEF2",
+						"ImagePath": ""
+					},
+					"Model": "Model 6",
+					"Color": "Silver",
+					"Path": [
+						"BP_Marker_Waypoint_C_2147461488",
+						"BP_Marker_Waypoint_C_2147461303",
+						"BP_Marker_Waypoint_C_2147461119",
+						"BP_Marker_Waypoint_C_2147460935",
+						"BP_Marker_Waypoint_C_2147460751",
+						"BP_Marker_Waypoint_C_2147460567",
+						"BP_Marker_Waypoint_C_2147460383",
+						"BP_Marker_Waypoint_C_2147460199",
+						"BP_Marker_Waypoint_C_2147460015",
+						"BP_Marker_Waypoint_C_2147459831",
+						"BP_Marker_Waypoint_C_2147459647",
+						"BP_Marker_Waypoint_C_2147459463"
+					],
+					"MarkerClass": "BP_Marker_Vehicle_Car_C",
+					"Id": "BP_Marker_Vehicle_Car_C_2147459277",
+					"Position":
+					{
+						"X": 2762.5758290363369,
+						"Y": 3178.7193939098088,
+						"Z": -6.9999215249115423
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -177.76382446289062
+					}
+				}
+			],
+			"Characters": []
+		},
+		"Lights":
+		{
+			"SpotLights": []
+		}
+	}
+}

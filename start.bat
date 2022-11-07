@@ -1,1 +1,1 @@
-.\\Deccq_V2.0.1.1\\Deccq.exe -scenario="C:\Users\Admin\Desktop\simulator2camea\hamid.json"
+.\\Deccq_V3.0.0.0\\Deccq.exe -scenario="C:\Users\ITDforskning\Desktop\simulator2camea\scenario2.JSON"
