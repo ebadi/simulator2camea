@@ -8,7 +8,7 @@ validWheathers= ['Cloudy', 'Sunny']
 def data_mutate(data):
     data['GeneralSettings']['EnvironmentSettings']['Weather'] =         mutate(data['GeneralSettings']['EnvironmentSettings']['Weather'], 'Weather')
     data['GeneralSettings']['EnvironmentSettings']['Precipitation'] =   mutate(data['GeneralSettings']['EnvironmentSettings']['Precipitation'], 'float', 0 , 1)
-    data['GeneralSettings']['EnvironmentSettings']['Hour'] =            mutate(data['GeneralSettings']['EnvironmentSettings']['Hour'], 'int', 0, 24)
+    data['GeneralSettings']['EnvironmentSettings']['Hour'] =            mutate(data['GeneralSettings']['EnvironmentSettings']['Hour'], 'int', 8, 18)
     data['GeneralSettings']['EnvironmentSettings']['Minute'] =            mutate(data['GeneralSettings']['EnvironmentSettings']['Minute'], 'int', 0, 60)
     
     data['GeneralSettings']['SensorSettings']['Camera']['Aperture'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Aperture'], 'float', 0 , 10)

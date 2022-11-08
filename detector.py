@@ -9,10 +9,6 @@ from subprocess import check_output
 import shutil
 import json
 import mutate
-# Non-blocking mode
-plt.ion()
-plt.show()
-plt.figure(figsize = (16,16), dpi= 128) # 2048 = 128 * 16
 
 licenseplate_list= ["ABCDEF2", "XYZDEF2"]
 
@@ -29,22 +25,26 @@ with open(os.path.join(cwd, "scenario_modified.JSON"), 'w') as f:
 
 ######## STEP 2 : Run the json scenario file ########
 
+
+# path = os.path.join(cwd,"LP_DATASET", "CAMEA")
+# path = os.path.join(cwd,"LP_DATASET","INFOTIV", "png")
+path = os.path.join(cwd,"LP_DATASET", "BERGE", "Normal")
+try: 
+    shutil.rmtree(path)
+except:
+    pass
+
 check_output(".\\Deccq_V3.0.0.1\\Deccq.exe -scenario=\"" + os.path.join(cwd, "scenario_modified.JSON") + "\"", shell=True)
 
-
+file_list = glob.glob(os.path.join(path, '*'))
 
 
 
 ######## STEP 3 : Send the resulting files and evaluate the results  ########
-# path = os.path.join(cwd,"LP_DATASET", "CAMEA")
-# file_list = glob.glob(os.path.join(path, '*.jpg'))
-
-# path = os.path.join(cwd,"LP_DATASET","INFOTIV", "png")
-# file_list = glob.glob(os.path.join(path, '*.png'))
-
-path = os.path.join(cwd,"LP_DATASET", "BERGE", "Normal")
-shutil.rmtree(path)
-file_list = glob.glob(os.path.join(path, '*.png'))
+# Non-blocking mode
+plt.ion()
+plt.show()
+plt.figure(figsize = (16,16), dpi= 128) # 2048 = 128 * 16
 
 for file_item in file_list:
 
@@ -102,7 +102,7 @@ for file_item in file_list:
         plt.imshow(img_converted)
         plt.draw()
         plt.savefig(file_item + '-RESULT.jpg', bbox_inches='tight',transparent=True, pad_inches=0) # save the result
-        plt.pause(0.5)
+        # plt.pause(0.5)
         # time.sleep(1)
     except:
         pass
