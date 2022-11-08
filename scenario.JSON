@@ -59,7 +59,7 @@
 				"Exposure": 5,
 				"ShutterSpeed": 125,
 				"Iso": 100,
-				"Fov": 15
+				"Fov": 20
 			},
 			"Radar":
 			{
@@ -91,7 +91,7 @@
 		},
 		"OutputSettings":
 		{
-			"FrameCount": 25,
+			"FrameCount": 15,
 			"ImageSize":
 			{
 				"x": 2048,

@@ -39,7 +39,7 @@ def data_mutate(data):
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['ClassToSpawn'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['ClassToSpawn'], 'ClassToSpawn')
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['Model'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['Model'], 'Model')
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['Color'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['Color'], 'Color')
-        data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'], 'int', 0, 60)
+        data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'], 'int', 10, 23)
 
     for i in range(0,len(data['ScenarioActors']['Lights']['SpotLights'])):    
         data['ScenarioActors']['Lights']['SpotLights'][i]['Position']['X'] =   mutate(data['ScenarioActors']['Lights']['SpotLights'][i]['Position']['X'], 'float', 0 , 10)
@@ -62,8 +62,9 @@ def mutate(value, vtype, rangemin=None, rangemax=None):
     if vtype == 'int':
         return random.randint(rangemin, rangemax)
     if vtype == 'Model':
-        return random.choice(validModels)
+        return value # random.choice(validModels)
     if vtype == 'PlateNumber':
         return random.choice(validPlateNumbers)
     if vtype == 'Color':
         return random.choice(validColors)
+    return value
