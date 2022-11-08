@@ -1,19 +1,41 @@
 import os, glob
 import time
-
 import requests
 import matplotlib.pyplot as plt
 import cv2
-
+# List images in
+cwd = os.getcwd()
+from subprocess import check_output
+import shutil
+import json
+import mutate
 # Non-blocking mode
 plt.ion()
 plt.show()
-plt.figure(figsize = (10,8))
+plt.figure(figsize = (16,16), dpi= 128) # 2048 = 128 * 16
 
-# List images in
-import os
-cwd = os.getcwd()
+licenseplate_list= ["ABCDEF2", "XYZDEF2"]
 
+######## STEP 1 : Modify the json scenario file ########
+with open(os.path.join(cwd, "scenario.JSON"), 'r') as f:
+    data = json.load(f)
+    data['id'] = 134 # <--- add `id` value.
+
+new_data = mutate.data_mutate(data)
+
+with open(os.path.join(cwd, "scenario_modified.JSON"), 'w') as f:
+    json.dump(new_data, f, indent=4)
+
+
+######## STEP 2 : Run the json scenario file ########
+
+check_output(".\\Deccq_V3.0.0.1\\Deccq.exe -scenario=\"" + os.path.join(cwd, "scenario_modified.JSON") + "\"", shell=True)
+
+
+
+
+
+######## STEP 3 : Send the resulting files and evaluate the results  ########
 # path = os.path.join(cwd,"LP_DATASET", "CAMEA")
 # file_list = glob.glob(os.path.join(path, '*.jpg'))
 
@@ -21,6 +43,7 @@ cwd = os.getcwd()
 # file_list = glob.glob(os.path.join(path, '*.png'))
 
 path = os.path.join(cwd,"LP_DATASET", "BERGE", "Normal")
+shutil.rmtree(path)
 file_list = glob.glob(os.path.join(path, '*.png'))
 
 for file_item in file_list:
@@ -42,7 +65,6 @@ for file_item in file_list:
                 print(resp)
                 # exit(1)
 
-            #
             resp_json = resp.json()[0]
 
             points = None
@@ -79,7 +101,7 @@ for file_item in file_list:
         plt.axis('off')
         plt.imshow(img_converted)
         plt.draw()
-        plt.savefig(file_item + '-RESULT.jpg') # save the result
+        plt.savefig(file_item + '-RESULT.jpg', bbox_inches='tight',transparent=True, pad_inches=0) # save the result
         plt.pause(0.5)
         # time.sleep(1)
     except:

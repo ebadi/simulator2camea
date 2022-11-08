@@ -5,7 +5,7 @@
 		{
 			"Weather": "Sunny",
 			"Precipitation": 0.5,
-			"Hour": 12,
+			"Hour": 15,
 			"Minute": 0
 		},
 		"TrafficSettings":
@@ -55,33 +55,49 @@
 			"Camera":
 			{
 				"Aperture": 2.7999999999999998,
-				"FocalLength": 500,
+				"FocalLength": 4000,
 				"Exposure": 5,
 				"ShutterSpeed": 125,
 				"Iso": 100,
-				"Fov": 50
+				"Fov": 15
 			},
 			"Radar":
 			{
-				"UseRadar": true,
+				"UseRadar": false,
 				"Reach": 10000,
 				"HorizontalRange": 22.5,
 				"VerticalRange": 22.5,
 				"HorizontalResolution": 1,
 				"VerticalResolution": 1
 			},
-			"RandomizeViewpoints": true,
-			"Viewpoints": []
+			"RandomizeViewpoints": false,
+			"Viewpoints": [
+				{
+					"Position":
+					{
+						"X": -8455.0647208895152,
+						"Y": -1875.4472432390612,
+						"Z": 891.47172748329899
+					},
+					"Rotation":
+					{
+						"Roll": 4.2074541550460309e-13,
+						"Pitch": -19.10565185546875,
+						"Yaw": 40.497493743896484
+					},
+					"Enabled": true
+				}
+			]
 		},
 		"OutputSettings":
 		{
-			"FrameCount": 10,
+			"FrameCount": 25,
 			"ImageSize":
 			{
-				"x": 512,
-				"y": 512
+				"x": 2048,
+				"y": 2048
 			},
-			"OutputDirectory": "C:/Users/ITDforskning/AppData/Local/Deccq/Saved//Datasets/",
+			"OutputDirectory": "C:\\Users\\ITDforskning\\Desktop\\simulator2camea\\LP_DATASET\\BERGE\\",
 			"FilterSettings": [
 				{
 					"FilterName": "Normal",
@@ -96,17 +112,17 @@
 				{
 					"FilterName": "Depth",
 					"OutputFormat": "EXR",
-					"Enabled": true
+					"Enabled": false
 				},
 				{
 					"FilterName": "Segmentation",
 					"OutputFormat": "PNG",
-					"Enabled": true
+					"Enabled": false
 				},
 				{
 					"FilterName": "PlateSegmentation",
 					"OutputFormat": "PNG",
-					"Enabled": true
+					"Enabled": false
 				}
 			]
 		}
@@ -118,82 +134,6 @@
 		"Navigation":
 		{
 			"Waypoints": [
-				{
-					"MarkerClass": "BP_Marker_Waypoint_C",
-					"Id": "BP_Marker_Waypoint_C_2147461488",
-					"ClassToSpawn": "BP_Waypoints_C",
-					"Position":
-					{
-						"X": 2420.8078805323294,
-						"Y": 3165.3738392897203,
-						"Z": -6.9999235790576222
-					},
-					"Rotation":
-					{
-						"Roll": 0,
-						"Pitch": 0,
-						"Yaw": -176.55111694335938
-					},
-					"TargetSpeed": 50,
-					"AcceptanceRadius": 1
-				},
-				{
-					"MarkerClass": "BP_Marker_Waypoint_C",
-					"Id": "BP_Marker_Waypoint_C_2147461303",
-					"ClassToSpawn": "BP_Waypoints_C",
-					"Position":
-					{
-						"X": 1546.0591475974038,
-						"Y": 3176.0431013854623,
-						"Z": -6.9999706523235545
-					},
-					"Rotation":
-					{
-						"Roll": 0,
-						"Pitch": 0,
-						"Yaw": -176.55111694335938
-					},
-					"TargetSpeed": 50,
-					"AcceptanceRadius": 1
-				},
-				{
-					"MarkerClass": "BP_Marker_Waypoint_C",
-					"Id": "BP_Marker_Waypoint_C_2147461119",
-					"ClassToSpawn": "BP_Waypoints_C",
-					"Position":
-					{
-						"X": 227.00748973034433,
-						"Y": 3135.5819309632429,
-						"Z": -6.9999845700399419
-					},
-					"Rotation":
-					{
-						"Roll": 0,
-						"Pitch": 0,
-						"Yaw": -176.55111694335938
-					},
-					"TargetSpeed": 50,
-					"AcceptanceRadius": 1
-				},
-				{
-					"MarkerClass": "BP_Marker_Waypoint_C",
-					"Id": "BP_Marker_Waypoint_C_2147460935",
-					"ClassToSpawn": "BP_Waypoints_C",
-					"Position":
-					{
-						"X": -1500.1232324694342,
-						"Y": 3127.4976092131687,
-						"Z": -6.9999208493611604
-					},
-					"Rotation":
-					{
-						"Roll": 0,
-						"Pitch": 0,
-						"Yaw": -176.55111694335938
-					},
-					"TargetSpeed": 50,
-					"AcceptanceRadius": 1
-				},
 				{
 					"MarkerClass": "BP_Marker_Waypoint_C",
 					"Id": "BP_Marker_Waypoint_C_2147460751",
@@ -272,6 +212,82 @@
 				},
 				{
 					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147459463",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -12543.612667820591,
+						"Y": -1457.4234109289955,
+						"Z": -6.986231113529584
+					},
+					"Rotation":
+					{
+						"Roll": 0.0010323039023205638,
+						"Pitch": 0.0012832548236474395,
+						"Yaw": -176.55143737792969
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147461488",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": 2420.8078805323294,
+						"Y": 3165.3738392897203,
+						"Z": -6.9999235790576222
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147461303",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": 1546.0591475974038,
+						"Y": 3176.0431013854623,
+						"Z": -6.9999706523235545
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
+					"Id": "BP_Marker_Waypoint_C_2147460935",
+					"ClassToSpawn": "BP_Waypoints_C",
+					"Position":
+					{
+						"X": -1500.1232324694342,
+						"Y": 3127.4976092131687,
+						"Z": -6.9999208493611604
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
+					},
+					"TargetSpeed": 50,
+					"AcceptanceRadius": 1
+				},
+				{
+					"MarkerClass": "BP_Marker_Waypoint_C",
 					"Id": "BP_Marker_Waypoint_C_2147460015",
 					"ClassToSpawn": "BP_Waypoints_C",
 					"Position":
@@ -329,19 +345,19 @@
 				},
 				{
 					"MarkerClass": "BP_Marker_Waypoint_C",
-					"Id": "BP_Marker_Waypoint_C_2147459463",
+					"Id": "BP_Marker_Waypoint_C_2147461119",
 					"ClassToSpawn": "BP_Waypoints_C",
 					"Position":
 					{
-						"X": -12543.612667820591,
-						"Y": -1457.4234109289955,
-						"Z": -6.986231113529584
+						"X": 227.00748973034433,
+						"Y": 3135.5819309632429,
+						"Z": -6.9999845700399419
 					},
 					"Rotation":
 					{
-						"Roll": 0.0010323039023205638,
-						"Pitch": 0.0012832548236474395,
-						"Yaw": -176.55143737792969
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": -176.55111694335938
 					},
 					"TargetSpeed": 50,
 					"AcceptanceRadius": 1
@@ -400,7 +416,52 @@
 		},
 		"Lights":
 		{
-			"SpotLights": []
+			"SpotLights": [
+				{
+					"MarkerClass": "BP_Marker_Light_C",
+					"Id": "BP_Marker_Light_C_2147481214",
+					"ClassToSpawn": "BP_ConeLight_C",
+					"Position":
+					{
+						"X": -6571.8955829561437,
+						"Y": -228.63279894808238,
+						"Z": -6.9999197209222075
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": 0
+					},
+					"Height": 1171.794921875,
+					"Pitch": -89,
+					"Yaw": 360,
+					"Intensity": 6855.8330078125,
+					"Spread": 710.49676513671875
+				},
+				{
+					"MarkerClass": "BP_Marker_Light_C",
+					"Id": "BP_Marker_Light_C_2147471531",
+					"ClassToSpawn": "BP_ConeLight_C",
+					"Position":
+					{
+						"X": -2715.2454656115224,
+						"Y": 662.09895044553332,
+						"Z": 1124.9442090031607
+					},
+					"Rotation":
+					{
+						"Roll": 0,
+						"Pitch": 0,
+						"Yaw": 0
+					},
+					"Height": 1000,
+					"Pitch": -60,
+					"Yaw": 0,
+					"Intensity": 16384,
+					"Spread": 500
+				}
+			]
 		}
 	}
 }
