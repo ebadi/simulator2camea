@@ -39,7 +39,7 @@ def data_mutate(data):
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['ClassToSpawn'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['ClassToSpawn'], 'ClassToSpawn')
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['Model'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['Model'], 'Model')
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['Color'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['Color'], 'Color')
-        data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'], 'int', 10, 23)
+        data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'], 'int', 15, 23)
 
     for i in range(0,len(data['ScenarioActors']['Lights']['SpotLights'])):    
         data['ScenarioActors']['Lights']['SpotLights'][i]['Position']['X'] =   mutate(data['ScenarioActors']['Lights']['SpotLights'][i]['Position']['X'], 'float', 0 , 10)
