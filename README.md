@@ -9,9 +9,12 @@
 ### Issues
 
 - It seems that the simulator doesn't use the correct coordination for the viewpoint (loading from the json file) and moves the view point down. As an example, if you place a viewpoint to close to the ground, the simulator takes picture from under the ground!
-- Interval between photo capturing
+- Interval between photo capturing is constant (probably one second)
 - Total number of image, not the number of image per viewpoint
 - absolute path to the scenario json is needed
+- Camera setting is not applied when a veiw point is placed in the scene
+- License plate are random
+
 
 ### Funding 
 This work is done under [VALU3S](https://valu3s.eu) project. This project has received funding from the [ECSEL](https://www.ecsel.eu) Joint Undertaking (JU) under grant agreement No 876852. The JU receives support from the European Union’s Horizon 2020 research and innovation programme and Austria, Czech Republic, Germany, Ireland, Italy, Portugal, Spain, Sweden, Turkey.

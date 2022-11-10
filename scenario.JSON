@@ -81,7 +81,7 @@
 					},
 					"Rotation":
 					{
-						"Roll": 6.7096702542970843e-13,
+						"Roll": 6.7180468002817073e-13,
 						"Pitch": -18.33453369140625,
 						"Yaw": 37.080387115478516
 					},
@@ -255,7 +255,7 @@
 		{
 			"Vehicles": [
 				{
-					"ClassToSpawn": "BP_vehicle01_Van_C",
+					"ClassToSpawn": "BP_vehicle07_Car_C",
 					"InitialSpeed": 0,
 					"MaxSpeed": 50,
 					"StartDelay": 0,
@@ -263,10 +263,10 @@
 					{
 						"SegmentationId": 50,
 						"Nationality": "",
-						"PlateNumber": "",
+						"PlateNumber": "AAAAAA",
 						"ImagePath": ""
 					},
-					"Model": "Model 1",
+					"Model": "Model 6",
 					"Color": "Beige",
 					"Path": [
 						"BP_Marker_Waypoint_C_2147481499",

@@ -1,8 +1,8 @@
 import numpy as np 
 import random
-validModels= ['xxx', 'yyy', 'zzz']
-validPlateNumbers = ['AAA2BBB', 'DDDD2BBB', 'QQQ3ZZ']
-validColors = ['red', 'green', 'white']
+validModels= ["Model 1", "Model 2", "Model 3", "Model 4", "Model 5", "Model 6"]
+validPlateNumbers = ['AAA2BBB', 'QQQ3ZZ']
+validColors = ['red', 'green', 'white', 'silver', 'grey', 'beige', 'blue', 'black']
 validWheathers= ['Cloudy', 'Sunny']
 
 def data_mutate(data):
@@ -11,20 +11,20 @@ def data_mutate(data):
     data['GeneralSettings']['EnvironmentSettings']['Hour'] =            mutate(data['GeneralSettings']['EnvironmentSettings']['Hour'], 'int', 8, 18)
     data['GeneralSettings']['EnvironmentSettings']['Minute'] =            mutate(data['GeneralSettings']['EnvironmentSettings']['Minute'], 'int', 0, 60)
     
-    data['GeneralSettings']['SensorSettings']['Camera']['Aperture'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Aperture'], 'float', 0 , 10)
-    data['GeneralSettings']['SensorSettings']['Camera']['FocalLength'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['FocalLength'], 'float', 0 , 10)
-    data['GeneralSettings']['SensorSettings']['Camera']['Exposure'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Exposure'], 'float', 0 , 10)
-    data['GeneralSettings']['SensorSettings']['Camera']['ShutterSpeed'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['ShutterSpeed'], 'float', 0 , 10)
-    data['GeneralSettings']['SensorSettings']['Camera']['Iso'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Iso'], 'float', 0 , 10)
-    data['GeneralSettings']['SensorSettings']['Camera']['Fov'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Fov'], 'float', 0 , 10)
+    # data['GeneralSettings']['SensorSettings']['Camera']['Aperture'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Aperture'], 'float', 0 , 10)
+    # data['GeneralSettings']['SensorSettings']['Camera']['FocalLength'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['FocalLength'], 'float', 0 , 10)
+    # data['GeneralSettings']['SensorSettings']['Camera']['Exposure'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Exposure'], 'float', 0 , 10)
+    # data['GeneralSettings']['SensorSettings']['Camera']['ShutterSpeed'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['ShutterSpeed'], 'float', 0 , 10)
+    # data['GeneralSettings']['SensorSettings']['Camera']['Iso'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Iso'], 'float', 0 , 10)
+    # data['GeneralSettings']['SensorSettings']['Camera']['Fov'] =   mutate(data['GeneralSettings']['SensorSettings']['Camera']['Fov'], 'float', 0 , 10)
         
-    for i in range(0,len(data['GeneralSettings']['SensorSettings']['Viewpoints'])):
-        data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['X'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['X'], 'float', 0 , 10)
-        data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Y'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Y'], 'float', 0 , 10)
-        data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Z'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Z'], 'float', 0 , 10)
-        data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Roll'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Roll'], 'float', 0 , 10)
-        data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Pitch'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Pitch'], 'float', 0 , 10)
-        data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Yaw'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Yaw'], 'float', 0 , 10)
+    # for i in range(0,len(data['GeneralSettings']['SensorSettings']['Viewpoints'])):
+        # data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['X'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['X'], 'float', 0 , 10)
+        # data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Y'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Y'], 'float', 0 , 10)
+        # data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Z'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Position']['Z'], 'float', 0 , 10)
+        # data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Roll'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Roll'], 'float', 0 , 10)
+        # data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Pitch'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Pitch'], 'float', 0 , 10)
+        # data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Yaw'] =   mutate(data['GeneralSettings']['SensorSettings']['Viewpoints'][i]['Rotation']['Yaw'], 'float', 0 , 10)
     
     for i in range(0,len(data['ScenarioActors']['Navigation']['Waypoints'])):
         data['ScenarioActors']['Navigation']['Waypoints'][i]['Position']['X'] =   mutate(data['ScenarioActors']['Navigation']['Waypoints'][i]['Position']['X'], 'float', 0 , 10)
@@ -39,7 +39,7 @@ def data_mutate(data):
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['ClassToSpawn'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['ClassToSpawn'], 'ClassToSpawn')
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['Model'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['Model'], 'Model')
         data['ScenarioActors']['Dynamic']['Vehicles'][i]['Color'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['Color'], 'Color')
-        data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'], 'int', 15, 23)
+        data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'] = mutate(data['ScenarioActors']['Dynamic']['Vehicles'][i]['MaxSpeed'], 'int', 15, 20)
 
     for i in range(0,len(data['ScenarioActors']['Lights']['SpotLights'])):    
         data['ScenarioActors']['Lights']['SpotLights'][i]['Position']['X'] =   mutate(data['ScenarioActors']['Lights']['SpotLights'][i]['Position']['X'], 'float', 0 , 10)
