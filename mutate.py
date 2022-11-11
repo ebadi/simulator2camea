@@ -1,9 +1,9 @@
 import numpy as np 
 import random
 validModels= ["Model 1", "Model 2", "Model 3", "Model 4", "Model 5", "Model 6"]
-validPlateNumbers = ['AAA2BBB', 'QQQ3ZZ']
+validPlateNumbers = ['AAA2BBB', 'QQQ3ZZ','GAFGM2', '2TSQFY','OIUANF', 'POQFDK','ZDKWISD', '9875SDE','UIADMLS', 'RIAPEQA','3ROSMQL', 'ASFEMNB']
 validColors = ['red', 'green', 'white', 'silver', 'grey', 'beige', 'blue', 'black']
-validWheathers= ['Cloudy', 'Sunny']
+validWheathers= [ 'Sunny',  'Snowy', 'SnowyWithSun', 'Cloudy', 'CloudyWithSun', 'Rainy', 'RainyWithSun', ]
 
 def data_mutate(data):
     data['GeneralSettings']['EnvironmentSettings']['Weather'] =         mutate(data['GeneralSettings']['EnvironmentSettings']['Weather'], 'Weather')
@@ -62,7 +62,7 @@ def mutate(value, vtype, rangemin=None, rangemax=None):
     if vtype == 'int':
         return value + random.randint(-3, +3)
     if vtype == 'Model':
-        return value # random.choice(validModels)
+        return random.choice(validModels)
     if vtype == 'PlateNumber':
         return random.choice(validPlateNumbers)
     if vtype == 'Color':

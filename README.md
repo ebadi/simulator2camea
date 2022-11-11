@@ -1,19 +1,11 @@
 ### Instruction
 
-- Place the simulator (Deccq_V2.0.1.1) in the root directory.
-- Place the license plate dataset in the root directory
-- Adjust the absolute path to the scenario json file in the `start.bat` file
-- run the bat file
+- place the simulator (Deccq_VX.0.a.b) in the root directory.
+- pdjust the absolute path to the output in the `scenario.JSON`
 - install pyhton dependencies (see `requirements.txt`) and run `detector.py`
-
-### Issues
-
-- It seems that the simulator doesn't use the correct coordination for the viewpoint (loading from the json file) and moves the view point down. As an example, if you place a viewpoint to close to the ground, the simulator takes picture from under the ground!
-- Interval between photo capturing is constant (probably one second)
-- Total number of image, not the number of image per viewpoint
-- absolute path to the scenario json is needed
-- Camera setting is not applied when a veiw point is placed in the scene
-- License plate are random
+- run `python scenariogenerator.py 3` to generate and run 3 scenarios
+- make sure that output files are generated in the specified folder
+- run `python licenseplatedetector.py` for license plate detection
 
 
 ### Funding 
