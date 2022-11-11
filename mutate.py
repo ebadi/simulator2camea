@@ -3,7 +3,7 @@ import random
 validModels= ["Model 1", "Model 2", "Model 3", "Model 4", "Model 5", "Model 6"]
 validPlateNumbers = ['AAA2BBB', 'QQQ3ZZ','GAFGM2', '2TSQFY','OIUANF', 'POQFDK','ZDKWISD', '9875SDE','UIADMLS', 'RIAPEQA','3ROSMQL', 'ASFEMNB']
 validColors = ['red', 'green', 'white', 'silver', 'grey', 'beige', 'blue', 'black']
-validWheathers= [ 'Sunny',  'Snowy', 'SnowyWithSun', 'Cloudy', 'CloudyWithSun', 'Rainy', 'RainyWithSun', ]
+validWeathers= [ 'Sunny',  'Snowy', 'SnowyWithSun', 'Cloudy', 'CloudyWithSun', 'Rainy', 'RainyWithSun', ]
 
 def data_mutate(data):
     data['GeneralSettings']['EnvironmentSettings']['Weather'] =         mutate(data['GeneralSettings']['EnvironmentSettings']['Weather'], 'Weather')
@@ -56,7 +56,8 @@ def mutate(value, vtype, rangemin=None, rangemax=None):
         scale = (rangemax - rangemin )/2
     except:
         scale = 1
-        
+    if vtype == 'Weather':
+        return random.choice(validWeathers)   
     if vtype == 'float':
         return int(np.random.normal(value, int(scale)))
     if vtype == 'int':

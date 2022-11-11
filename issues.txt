@@ -7,3 +7,4 @@
 - absolute path to the scenario json is needed
 - Camera setting is not applied when a veiw point is placed in the scene
 - License plate are random
+- No warning for saving the scenario when you press `ESC`
