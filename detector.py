@@ -53,7 +53,7 @@ for file_item in file_list:
     # curl -X POST  -F "file=@img.jpg"  https://cloud.cognitechna.cz:8080/process_image_multipart?type=anpr.gate.europe
     # Non-blocking mode
     plt.cla()
-    plt.ion()
+    plt.ioff()
     plt.figure(figsize = (16,16), dpi= 256) # 2048 = 128 * 16
     try:
         with open(file_item, 'rb') as f:

@@ -60,7 +60,7 @@ def mutate(value, vtype, rangemin=None, rangemax=None):
     if vtype == 'float':
         return int(np.random.normal(value, int(scale)))
     if vtype == 'int':
-        return random.randint(rangemin, rangemax)
+        return value + random.randint(-3, +3)
     if vtype == 'Model':
         return value # random.choice(validModels)
     if vtype == 'PlateNumber':
